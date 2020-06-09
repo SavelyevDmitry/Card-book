@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: #e3f2fd;
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'Noto Serif', serif; */
+}
+
+.card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 55px 0px rgba(181, 220, 248, 0.4);
+  
+    width: 967px;
+}
+
+.card::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-img-wrapper{
+    float: left;
+    width: 371px;
+}
+
+.card-img{
+    vertical-align: top;
+}
+
+.card-content-wrapper{
+    float: right;
+    width: 426px;
+    padding-top: 9px;
+}
+
+.card-title{
+    margin: 0;
+    margin-bottom: 7px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #bfc5c8;
+}
+
+.card-name-book{
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #01a4bd;
+    margin-bottom: 23px;
+}
+
+.card-text{
+    font-weight: 400;
+    font-size: 15px;
+    color: #6c757f;
+    margin-bottom: 14px;
+}
+
+.card-text p{
+    margin: 0;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.card-text p:last-child{
+    margin-bottom: 0;
+}
+
+.card-price-lable{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #bfc5c8;
+    margin: 0;
+}
+
+.card-price{
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.card-button{
+    display: inline-block;
+    background-color: #e2013b;
+    padding-top: 10px;
+    padding-left: 33px;
+    padding-right: 36px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+    color: #ffffff;
+
+    font-weight: 700;
+    font-size: 24px;
+}
